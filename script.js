@@ -20,6 +20,7 @@ function closeNav(){
   for (let i = 0; i < navLink.length; i++){
     navLink[i].addEventListener("click", () => {
       nav.style.width = "0";
+      dropdownMenu.classList.toggle("active");
     })
   }
 }
