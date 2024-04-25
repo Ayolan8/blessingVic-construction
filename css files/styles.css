@@ -163,6 +163,7 @@ nav a {
   font-weight: bold;
   align-self: center;
   color: var(--very-dark-gray);
+  border: none;
 }
 
 .check-work{
@@ -186,15 +187,7 @@ main {
 }
 
 .about-us {
-  /* background-color: #5ac3b0; */
   background-color: #fdf5df;
-  /* background-color: #5ac3b0 */
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* flex-wrap: wrap; */
-  /* gap: 2em; */
-  ;
   margin-bottom: 3em;
   width: 100%;
   padding: 1em;
@@ -361,9 +354,6 @@ main {
     display: block;
     /* justify-content: center; */
     margin: 2em auto;
-    /* align-self: center; */
-    /* height: 45px; */
-    /* background-color: var(--dark-blue); */
     background-color: #f92c85;
     width: 220px;
     text-align: center;
@@ -377,8 +367,6 @@ main {
   }
 
   /* Testimonials */
-
-  
 
   .client-info{
     margin-bottom: 1em;
@@ -446,21 +434,6 @@ footer a {
   margin-top: 3em;
   color: var(--light-gray);
 }
-  
- /*
-  @media screen and (max-width: 1024px) {
-   .hero-text h1 {
-      font-size: 4em;
-    }
-    
-    .hero-text p {
-      font-size: 2.5em;
-      color: var(--dark-blue);
-      text-shadow: 2px 3px 2px var(--very-dark-gray);
-      font-weight: bold;
-    }
-  }
-*/
 
 @media screen and (max-width: 680px){
  
@@ -523,13 +496,6 @@ footer a {
     font-size: 20px;
   }
 
-  .hero-text {
-    /* top: 20%; */
-    /* left: 6%; */
-  }
-
- 
-
   .hero-text > h1 {
     font-size: 3em;
     /* text-align: left; */
@@ -557,6 +523,10 @@ footer a {
   .service-cards > div {
     width: 100%;
     /* text-align: center; */
+  }
+
+  #services > p {
+    text-align: center;
   }
 
   .photo-gallery img {
