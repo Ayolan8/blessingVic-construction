@@ -520,6 +520,10 @@ footer a {
     /* margin: 0; */
   }
 
+  .about-us p {
+    text-align: center;
+  }
+
   .service-cards > div {
     width: 100%;
     /* text-align: center; */
